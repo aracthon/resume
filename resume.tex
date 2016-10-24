@@ -1,0 +1,116 @@
+% !TEX program = xelatex
+
+\documentclass[letterpaper]{resume}
+\usepackage[hidelinks]{hyperref}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\geometry{top=0.25in,left=0.75in,bottom=0.25in,right=0.75in}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Junzhuo Wang}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{\href{mailto:junzhuow@usc.edu}{junzhuow@usc.edu}}{+1 213-453-5901}{1246 W 30th St, Los Angeles, CA}{\href{https://github.com/cs512}{cs512}}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\section{\faInfoCircle\ Objective}
+Seeking for an internship in Software Engineering.
+
+\section{\faGraduationCap\ Education}
+% \section{Education}
+\datedsubsection{\textbf{University of Southern California}, Los Angeles, CA}{Jan. 2016 -- Present}
+\textit{Master student} in Computer Science (CS), \textit{4.0/4}, expected Dec. 2017
+\datedsubsection{\textbf{Tongji University}, Shanghai, China}{Sept. 2011 -- Jun. 2015}
+\textit{B.S.} in Computer Science (CS), \textit{88.1/100}
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Tongji-Yale Center of Advanced Networks and Networked Systems}}{Jul. 2015 -- Dec. 2015}
+\role{Java, YANG;}{Software Development Internship}
+\begin{itemize}
+  \item Implemented Application-Layer Traffic Optimization(ALTO) module in OpenDayLight.
+  \item Improved L2 Switch module in OpenDayLight(ODL) to cooperate with ALTO module.
+  \item Deployed ALTO on Caltech's test environment.
+  \item Submitted an IETF draft: \textit{"ALTO Extension: Endpoint Cost Service for Flows"}.
+\end{itemize}
+
+\datedsubsection{\textbf{MLW Limited}}{Feb. 2013 -- Jun. 2013}
+\role{Javascript, HTML, CSS;}{Web Development Internship}
+\begin{itemize}
+  \item Built a web application by \textit{Angular.js}.
+\end{itemize}
+
+\section{\faCodeFork\ Projects}
+\datedsubsection{\textbf{Space Defender}}{Aug. 2016 -- Present}
+\role{Unity 3D, Blender, C\#;}{A spaceship Tower Defence game at \textit{GamePipe} in USC}
+
+\datedsubsection{\textbf{Stock Market Inquirer}}{Jan. 2016 -- May 2016}
+\role{Swift, PHP, HTML5, CSS, Javascript;}{An iOS application as course project for \textit{Web Technology} in USC}
+\begin{itemize}
+  \item Built application to retrieve stock historical and real-time information.
+  \item Deployed back-end server on Amazon AWS to provide stock information.
+\end{itemize}
+
+\datedsubsection{\textbf{Furniture Preview System Based on Augmented Reality Technique}}{Jul. 2014}
+\role{Python, Arduino, C++;}{A project of \textit{2014 Intel Cup Embedded System Design Contest}}
+\begin{itemize}
+  \item Built a glove with flex sensor and IMU to grab virtual furniture in augmented reality space.
+  \item Implemented a positioning mechanism using gyro, accelerate meter and camera.
+  \item Optimized performance for Intel Baytrail processor.
+\end{itemize}
+
+\datedsubsection{\textbf{Image retrieval system accelerated by CUDA}}{Nov. 2012 -- Feb. 2014}
+\role{Python, CUDA C, SQL;}{A project of \textit{Shanghai Undergraduate Innovative Program at Tongji University}}
+\begin{itemize}
+  \item Built a web application to query back-end server to retrieve image.
+  \item Implemented retrieve system by \textit{GPU-based SIFT} algorithm.
+\end{itemize}
+
+\datedsubsection{\textbf{Multiple Cycle CPU}}{Dec. 2013}
+\role{Verilog;}{A course project of \textit{Computer Organization} in Tongji University}
+\begin{itemize}
+  \item Implemented a multi-cycle CPU soft core on Xilinx's FPGA by \textit{Verilog}.
+\end{itemize}
+
+\datedsubsection{\textbf{Linux File System}}{Aug. 2013}
+\role{C, C++;}{A course project of \textit{Operating System} in Tongji University}
+\begin{itemize}
+  \item Implemented Linux file system and related system calls.
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: Python, Java, C++, C, Javascript, HTML5, CSS, C\#
+  % \item Platform: Linux, macOS
+  % \item Development: Web, Embedded System, 
+\end{itemize}
+
+% \section{\faHeartO\ Honors and Awards}
+% \datedline{\textit{\nth{3} Prize}, Award on 2014 Intel Cup Embedded System Design Contest}{Jul. 2014}
+% \datedline{\textit{\nth{2} Prize}, Award on Program Design Contest in Tongji University}{May 2012}
+% \datedline{\textit{\nth{1} Prize}, Award on National Olympiad in Informatics in Provinces}{Nov. 2011}
+
+% \section{\faInfo\ Miscellaneous}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: http://your.blog.me
+%   \item GitHub: https://github.com/username
+%   \item Languages: English - Fluent, Mandarin - Native speaker
+% \end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
